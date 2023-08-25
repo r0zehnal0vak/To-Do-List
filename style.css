@@ -1,0 +1,52 @@
+@charset "utf-8";
+body{background-color: #35353a}
+
+#nadpis{ background-color: #4e4e4e;}
+
+#checkList{color:aliceblue;}
+
+#addNew{
+    margin-left: 50px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+#divButt{
+    padding-top: 10px;
+}
+
+ul li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+#checked{
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 16px 12px 16px;
+}
+
+.close:hover{
+    color: white;
+    background-color: #35353a;
+}
+
+.form-check-input{
+    background-color: rgb(235, 229, 229);
+    color: blue;
+    float: left;
+    margin-right: 20px;
+}
